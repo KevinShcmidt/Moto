@@ -1,0 +1,439 @@
+/* --------------------------------------------------------------------responsive---------------------------------------------- */
+@media screen and (min-width: 1024px) {
+     header{
+        font-size: 1.5vw;
+}
+.section1 .content .para h1{
+    font-size: 5vw;
+}
+.section2 .hh .box{
+    font-size: 1.2vw;
+}
+.section3 .left{
+    font-size: 1.2vw;
+}
+.section4 .div2 .card .cardcontent .zoky .anarana{
+    font-size: 2vw;
+}
+.section4 .div2 .card .cardcontent .lorem{
+    font-size: 1.5vw;
+}
+.section4 .div2 .mec img{
+    bottom: -10.7vw;
+     height: 60vh;
+    width: auto;
+}
+
+}
+
+@media screen and (max-width: 940px) and (min-width: 767px){
+    header{
+        padding: 2px 20px;
+    }
+    header .logo .nom h2{
+        font-size: 1.5em;
+    }
+    .nav ul li{
+        font-size: 0.5em;
+    }
+    .section1 .content .para h1{
+        font-size: 5vw;
+    }
+    .section2 .hh .box{
+        font-size: 2vw;
+    }
+    .section2 .box .imgg img{
+        height: 30vh;
+    }
+    .section3 .left{
+        font-size: 1.6vw;
+    }
+    .section3 .left .col{
+        margin: 10px 0px;
+    }
+    .section3 .center img{
+       display: none;
+    }
+    
+    .section3 .right .cln .toph img{
+        width: 90px;
+        height: 90px;
+    }
+    .section4 .div2{
+        padding: 50px;
+        position: static;
+    }
+    .section4 .div2 .card .cardcontent .zoky .saryzoky img{
+        width: 15vw;
+        height: 15vw;
+    }
+    .section4 .div2 .card .cardcontent .lorem{
+        font-size: 3vw;
+    }
+    .section4 .div2 .card .cardcontent .zoky .anarana{
+        font-size: 4vw;
+    }
+    .section4 .div2 .card{
+        width: 90%;
+        padding: 20px;
+    }
+    .section4 .div2 .mec{
+        display: none;
+    }
+    .section5 .jj .kk .ane{
+        display: none;
+    }
+ }
+
+@media screen and (max-width: 767px){
+    header{
+       width: 100vw;
+       display: block;
+       padding: 0px;
+       height: 100vh;
+       z-index: 1111111111111111;
+       display: block;
+   }
+   header .logo .nom h2{
+        font-size: 1.5em;
+    }
+
+   .nav{
+       display: flex;
+       width: 100%;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background-color: #c00b0bc5;
+       height: 100vh;
+       margin-left: 100%;
+       transition: .3s ease-in;
+   }
+   .nav .burger{
+       width: 40px;
+       height: 5px;
+       background-color: #ffffff;
+       float: right;
+       position: absolute;
+       top: 5vw;
+       right: 5vw;
+
+   }
+   .nav .burger::before{
+       width: 100%;
+       height: 100%;
+       content: '';
+       position: absolute;
+       background-color: #ffffff;
+       top: -10px;
+   }
+   .nav .burger::after{
+       width: 100%;
+       height: 100%;
+       content: '';
+       position: absolute;
+       background-color: #ffffff;
+       top: 10px;
+   }
+   .nav ul{
+       display: block;
+       margin-top: -100px;
+       text-align: center;
+       width: 100%;
+       color: #ffffff;
+   }
+   .nav ul li{
+       margin: 5vw 0vw;
+   }
+   .nav .social{
+       width: 100%;
+       color: #ffffff;
+   }
+   .section1 .content .para h1{
+       font-size: 3em;
+   }
+   .section2 .hh .box{
+       position: static;
+       width: 300px;
+       font-size: 2.5vw;
+   }
+   .section3{
+    height: auto;
+   }
+   .section3 .left,  .section3 .right{
+        width: 300px;
+        position: static;
+   }
+   .section3 .left{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.section3 .left{
+    font-size: 2vw;
+    display: block;
+}
+.section3 .left h2{
+    width: 100%;
+    font-size: 4vw;
+}
+.section3 .left .col{
+    margin: 10px 0px;
+    width: 100%;
+}
+.section3 .center{
+    display: flex;
+    justify-content: center;
+}
+.section3 .center img{
+   display: none;
+}
+.section3 .right .cln .toph img{
+    width: 90px;
+    height: 90px;
+}
+.section3 .right .cln .desc p{
+    font-size: 1.5vw;
+}
+.section4{
+    gap: 1em;
+}
+.section4 .div1, .section4 .div2{
+    position: static;
+    width: 100%;
+}
+.section4 .div2{
+    padding: 10px;
+}
+.section4 .div2 .card .cardcontent .lorem{
+    margin-top: 20px;
+}
+.section4 .div2 .card{
+    padding: 20px;
+    width: 100%;
+}
+.section4 .div2 .mec {
+    display: none;
+}
+.section4 .div2 .card .cardcontent .zoky .anarana{
+    font-size: 2vw;
+}
+.section4 .div2 .card .cardcontent .lorem{
+    font-size: 3vw;
+}
+.section4 .div1 .tt p{
+    color: #5c5c5c;
+    font-family: sans-serif;
+    font-size: 3vw;
+}
+.section4 .div1 .tt h2{
+    font-size: 5vw;
+}
+.section5 .jj .tt{
+    margin-bottom: 5vw;
+}
+.section5 .jj .kk .avi,.section5 .jj .kk .ava{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: static;
+    width: 50%;
+    padding: 50px;
+    font-family: sans-serif;
+}
+.section5 .jj .kk .avi{
+    background-color: #cd0a2d;
+    left: 0;
+}
+.section5 .jj .kk .ava{
+    right: 0;  
+}
+.section5 .jj .kk .ane{
+    display: none;
+}
+.section6 .section6contenu .part1 .ttl h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 7vw;
+    font-family: hd;
+}
+.section6 .section6contenu .part1 .ttl p{
+    font-family: sans-serif;
+    font-size: 3vw;
+}
+.section6 .section6contenu .part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    gap: 2em;
+}
+.section6 .section6contenu .part2 .carre{
+    width: 300px;
+}
+.section6 .section6contenu .part2 .carreimg{
+    padding: 10px;
+    height: 50%;
+    position: relative;
+}
+.section6 .section6contenu .part2 .carreimg img{
+    height: 30vh;
+}
+.section6 .section6contenu .part2 .carreimg .lieu{
+    font-size: 3vw;
+}
+.section6 .section6contenu .part2 .carreimg .lieu h2{
+   font-size: 5vw;
+}
+.section6 .section6contenu .part2 .carrepara h3{
+    font-size: 4vw;
+}
+.section6 .section6contenu .part2 .carrepara p{
+    font-size: 3vw;
+}
+.section7contenu .paragraphe h2{
+    font-size: 5vw;
+}
+.section7contenu .paragraphe p{
+    font-size: 2vw;
+}
+
+.section7contenu .position i{
+    font-size: 15vw;
+    position: static;
+}
+.section8contenu .ambony .ambony1 .iconeammbony{
+    width: 10vw;
+    height: 10vw;
+}
+.section8contenu .ambony .ambony1 .paraambony h2{
+    font-size: 2.5vw;
+}
+.section8contenu .ambony .ambony1 .paraambony p{
+    font-size: 1.7vw;
+}
+.section8contenu .ambany .aa{
+    font-size: 2.5vw;
+    width: 7vw;
+    height: 7vw;
+}
+}
+
+@media screen and (max-width: 485px) {
+    header .logo .nom h2{
+        font-size: 1.2em;
+    }
+    .section3 .left{
+        padding: 10px;
+        justify-content: left;
+        text-align: left;
+    }
+    .section3 .left{
+        font-size: 3.1vw;
+        display: block;
+    }
+    .section3 .left h2{
+        width: 100%;
+    }
+    .section3 .left .col{
+        margin: 30px 0px;
+        width: 100%;
+    }
+    .section3 .center{
+        display: none;
+    }
+    .section3 .right .cln .desc p{
+        font-size: 2.5vw;
+    }
+    .section3 .right .cln .desc .ident h2{
+        font-size: 5vw;
+    }
+    .section4 .div1 .tt h2{
+    font-size: 5vw;
+}
+.section5 .jj .tt{
+    margin-bottom: 5vw;
+}
+.section5 .jj .kk .avi,.section5 .jj .kk .ava{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: static;
+    width: 50%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.section5 .jj .kk .nbr{
+    font-size:2vw;
+    width: 100%;
+ }
+ .section5 .jj .kk .avi .nbr .nbrd{
+     font-size: 2vw;
+     line-height: 2.5vw;
+ }
+ .section5 .jj .kk .avi .nbr .nbrd h2 span{
+     font-size: 4vw;
+ }
+ .section5 .jj .kk .ava .nbr .nbrg h2{
+     font-size: 4vw;
+ }
+ .section5 .jj .kk .ava .nbr .nbrg{
+     font-size: 2vw;
+     line-height: 3vw;
+ }
+
+ .section5 .jj .kk .pr p{
+     margin-top: 3vw;
+     font-size: 3vw;
+ }
+ .section5 .jj .tt h2{  
+    font-size: 6vw;
+}
+.section5 .jj .tt p{
+    font-size: 3vw;
+}
+.section7contenu .paragraphe h2{
+    font-size: 5vw;
+}
+.section7contenu .paragraphe p{
+    font-size: 2vw;
+}
+
+.section7contenu .position i{
+    font-size: 15vw;
+    position: static;
+}
+.section8contenu .ambony{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.section8contenu .ambony .ambony1 .iconeammbony{
+    width: 10vw;
+    height: 10vw;
+}
+.section8contenu .ambony .ambony1 .iconeammbony img{
+    width: 90%;
+    height: auto;
+}
+.section8contenu .ambony .ambony1 .paraambony h2{
+    font-size: 4vw;
+}
+.section8contenu .ambony .ambony1 .paraambony p{
+    font-size: 2vw;
+}
+.section8contenu .ambany .aa{
+    font-size: 2.5vw;
+    width: 7vw;
+    height: 7vw;
+}
+footer{
+    font-size: 2vw;
+}
+}  
+   
+
